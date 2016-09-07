@@ -29,7 +29,8 @@
 		"php": ">=5.4",
 		"johnpbloch/wordpress": ">=4.4",
 		"themosis/framework": "1.2.*",
-		"themosis/theme": "1.2.*"
+		"themosis/theme": "1.2.*",
+		"vlucas/phpdotenv": "2.*"
 	},
 	"extra":{
 		"installer-paths":{
