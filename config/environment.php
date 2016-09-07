@@ -5,5 +5,5 @@
 /*----------------------------------------------------*/
 
 return [
-    'connection'         => ['your-local-hostname', 'production-hostname'],
+    'connection' => gethostname(),
 ];
