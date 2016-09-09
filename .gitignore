@@ -22,6 +22,8 @@ vendor/
 /htdocs/content/uploads/
 /htdocs/content/upgrade/
 /htdocs/content/plugins/
+/storage/views/*
+!/storage/views/.gitkeep
 
 ### Front
 node_modules/*
