@@ -6,10 +6,9 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-
+*.bak
 
 ### Composer
-composer.lock
 vendor/
 
 ### IDE
@@ -22,6 +21,7 @@ vendor/
 /htdocs/content/themes/themosis-theme/
 /htdocs/content/uploads/
 /htdocs/content/upgrade/
+/htdocs/content/plugins/
 
 ### Front
 node_modules/*

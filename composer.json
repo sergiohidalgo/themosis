@@ -27,10 +27,12 @@
 	},
 	"require": {
 		"php": ">=5.4",
-		"johnpbloch/wordpress": ">=4.4",
+		"johnpbloch/wordpress": ">=4.6",
 		"themosis/framework": "1.2.*",
 		"themosis/theme": "1.2.*",
-		"vlucas/phpdotenv": "2.*"
+		"vlucas/phpdotenv": "2.*",
+		"wpackagist-plugin/wordpress-seo": "3.5",
+		"wpackagist-plugin/wordfence": "6.1.15"
 	},
 	"extra":{
 		"installer-paths":{
