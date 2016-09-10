@@ -25,6 +25,8 @@ ehthumbs.db
 !/htdocs/content/themes/.gitkeep
 !/htdocs/content/themes/base-theme/
 /htdocs/content/mu-plugins/themosis-framework/
+/storage/views/*
+!/storage/views/.gitkeep
 
 ### Front
 /node_modules/
