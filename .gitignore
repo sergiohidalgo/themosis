@@ -6,26 +6,29 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 ehthumbs.db
-
+*.bak
 
 ### Composer
-composer.lock
-vendor/
+/vendor/
 
 ### IDE
 .idea/
 
 ### Wordpress
-/htdocs/cms/*
+/htdocs/cms/
 !/htdocs/cms/.gitkeep
+/htdocs/content/*/
+/htdocs/content/themes/*/
+!/htdocs/content/mu-plugins/
+!/htdocs/content/plugins/.gitkeep
+!/htdocs/content/uploads/.gitkeep
+!/htdocs/content/themes/.gitkeep
+!/htdocs/content/themes/base-theme/
 /htdocs/content/mu-plugins/themosis-framework/
-/htdocs/content/themes/themosis-theme/
-/htdocs/content/uploads/
-/htdocs/content/upgrade/
 
 ### Front
-node_modules/*
-bower_components/*
+/node_modules/
+/bower_components/
 
 #### Compiled source
 *.com
@@ -53,6 +56,4 @@ bower_components/*
 *.sqlite
 
 ### Environment Credentials
-.env.*.php
-!.env.connection.php
 .env

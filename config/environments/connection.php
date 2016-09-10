@@ -31,13 +31,14 @@ define('WP_SITEURL', getenv('WP_SITEURL'));
 // Encoding
 define('THEMOSIS_CHARSET', 'UTF-8');
 
-if(getenv('DEBUG') == true)
+if(getenv('DEBUG') == 'true')
 {
 	// Development
 	define('SAVEQUERIES', true);
 	define('WP_DEBUG', true);
 	define('WP_DEBUG_DISPLAY', true);
 	define('SCRIPT_DEBUG', true);
+	define('WP_DEBUG_LOG', true); //wp-content/debug.log
 
 	// Themosis framework
 	define('THEMOSIS_ERROR_DISPLAY', true);
@@ -62,3 +63,13 @@ else
 /*----------------------------------------------------*/
 define('WP_AUTO_UPDATE_CORE', false);
 define('DISALLOW_FILE_EDIT', true);
+define('WPLANG', 'es_ES');
+define('WP_DEFAULT_THEME', 'base-theme');
+define('COMMENTS_TEMPLATE', false);
+define('WP_UNINSTALL_PLUGIN', false);
+define('XMLRPC_REQUEST', false);
+//define('WP_CACHE', true);
+define('COMPRESS_CSS', true);
+define('COMPRESS_SCRIPTS', true);
+define('CONCATENATE_SCRIPTS', true);
+define('ENFORCE_GZIP', true);
