@@ -33,7 +33,12 @@
 		"vlucas/phpdotenv": "2.*",
 		"wpackagist-plugin/wordpress-seo": "3.*",
 		"wpackagist-plugin/wordfence": "6.*",
-		"wpackagist-plugin/disable-comments": "1.*"
+		"wpackagist-plugin/disable-comments": "1.*",
+		"wpackagist-plugin/advanced-custom-fields-font-awesome": "1.7.2",
+		"wpackagist-plugin/search-everything": "8.1.6",
+		"wpackagist-plugin/duplicate-post": "3.0.1",
+		"wpackagist-plugin/admin-menu-editor": "1.7.2",
+		"mandrill/mandrill": "^1.0"
 	},
 	"extra":{
 		"installer-paths":{

@@ -27,3 +27,15 @@ if(getenv('DEBUG') != true){
 	remove_action('load-update-core.php','wp_update_plugins');
 	add_filter('pre_site_transient_update_plugins','__return_null');
 }
+
+### Enable Thumbnails in Page and Post
+	add_theme_support( 'post-thumbnails' );
+	add_post_type_support( 'page', 'post-thumbnails' );
+	add_post_type_support( 'category', 'post-thumbnails' );
+
+### Force view bar menu
+	show_admin_bar(true);
+
+### Disable XMLRPC for users no login
+	if(!is_user_logged_in())
+		define('XMLRPC_REQUEST', false);

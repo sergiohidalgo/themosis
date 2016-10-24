@@ -20,17 +20,26 @@ ehthumbs.db
 /htdocs/content/*/
 /htdocs/content/themes/*/
 !/htdocs/content/mu-plugins/
-!/htdocs/content/plugins/.gitkeep
 !/htdocs/content/uploads/.gitkeep
 !/htdocs/content/themes/.gitkeep
-!/htdocs/content/themes/base-theme/
+!/htdocs/content/themes/base-theme/*
+!/htdocs/content/themes/theme-master/*
 /htdocs/content/mu-plugins/themosis-framework/
 /storage/views/*
 !/storage/views/.gitkeep
+!/htdocs/content/plugins/.gitkeep
+!/htdocs/content/plugins/advanced-custom-fields-pro/
+!/htdocs/content/plugins/sitepress-multilingual-cms/
+!/htdocs/content/plugins/wpml-cms-nav/
 
 ### Front
 /node_modules/
 /bower_components/
+
+### Front Build
+/htdocs/content/themes/theme-master/resources/assets/css/*.css
+/htdocs/content/themes/theme-master/resources/assets/js/*.js
+/htdocs/content/themes/theme-master/resources/views/*
 
 #### Compiled source
 *.com
@@ -56,6 +65,7 @@ ehthumbs.db
 *.log
 *.sql
 *.sqlite
+!picton.sql
 
 ### Environment Credentials
 .env
