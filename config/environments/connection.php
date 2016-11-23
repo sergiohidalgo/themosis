@@ -40,6 +40,7 @@ if(getenv('DEBUG') == 'true')
 	define('WP_DEBUG_DISPLAY', true);
 	define('SCRIPT_DEBUG', true);
 	define('WP_DEBUG_LOG', true); //wp-content/debug.log
+	define('WP_CACHE', false)
 
 	// Themosis framework
 	define('THEMOSIS_ERROR_DISPLAY', true);
@@ -52,6 +53,7 @@ else
 	define('SAVEQUERIES', false);
 	define('WP_DEBUG_DISPLAY', false);
 	define('SCRIPT_DEBUG', false);
+	define('WP_CACHE', true)
 
 	// Themosis framework
 	define('THEMOSIS_ERROR_DISPLAY', false);
