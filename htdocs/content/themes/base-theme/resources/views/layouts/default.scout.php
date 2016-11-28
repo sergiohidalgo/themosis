@@ -14,6 +14,7 @@
     <meta name="twitter:title" content="{titulo}">
     <meta name="twitter:description" content="{descripcion}">
     <meta name="twitter:image:src" content="{url imagen}">
+    <meta name="format-detection" content="telephone=no">
     <?php wp_head() ?>
     <title>Title</title>
     <link href="{{themosis_assets()}}/styles.css" rel="stylesheet">
